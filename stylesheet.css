@@ -176,7 +176,7 @@ body{
     text-align: right;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
     img{
         width: 80%;
         height: 80%;
@@ -187,3 +187,52 @@ body{
         height: 80%;
     }
 }
+@media only screen and (max-width: 800px){
+    iframe{
+        width: 340px;
+        height: 240px;
+    }
+
+
+.nextpage img{
+    height: 80px;
+    width: 120px;
+}
+.navigationbar{
+    display: flex;
+    align-items: column;
+    
+}
+.navigation ul{
+    position: static;
+}
+.introduction p, .procedure p{
+    font-size: 20px;
+}
+
+.introduction h1, .procedure h2{
+   font-size: 50px;
+}
+
+.bigger1{
+    font-size: 30px;
+}
+.video h3{
+    font-size: 20px;
+}
+.navigation li a{
+    padding: auto;
+}
+.ingredient h3{
+    font-size: 25px;
+}
+.ingredient legend{
+    font-size: 40px;
+}
+.one{
+    width: 50%;
+    height: 50%;
+}
+}
+
+  
